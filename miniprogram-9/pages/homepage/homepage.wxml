@@ -47,9 +47,42 @@
   <!-- 第三部分 搜索框 -->
   <view class="search">
     <image class="search_icon" mode="widthFix" src="../../icon/search.png"></image>
-    <view>搜索</view>
+    <view>搜索学习资源/讲座名称/活动名称</view>
   </view>
   <!-- 第四部分 信息展示 -->
+
+<!--   
+  <view class="info_root">
+    <view>
+      <image class="info_img" mode="widthFix" src="../../images/test02.jpg"></image>
+    </view>
+    <view class="info_text">
+      <view class="info_title">学习资源|留学君带你了解留学三步骤</view>
+      <view class="info_date">2021年8月16日</view>
+      <view class="info_signature">北工大留学君</view>
+    </view>  
+  </view> -->
+
+  <view  
+          class="info_root"
+          wx:for="{{InfoList}}"  
+          wx:for-item = "item" 
+          wx:for-index = "index"
+          wx:key = "index"
+        >
+    <view>
+      <image class="info_img" mode="widthFix" src="{{item.img}}"></image>
+    </view>
+    <view class="info_text">
+      <view class="info_title">{{item.title}}</view>
+      <view class="info_date">{{item.date}}</view>
+      <view class="info_signature">{{item.signature}}</view>
+    </view>  
+  </view>
+
+
+
+
 
 
 </view>

@@ -2,7 +2,7 @@
   "pages":[
     "pages/homepage/homepage",
     "pages/jobwanted/jobwanted",
-    "pages/forum/forum",
+    "pages/forum1/forum1",
     "pages/mine/mine",
     "pages/Postgraduate/Postgraduate",
     "pages/PostgraduatRecommendation/PostgraduatRecommendation",
@@ -11,11 +11,11 @@
 
   ],
   "window":{
-    "backgroundColor": "#65A3F0",
-    "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#688cc6",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTitleText": "起航",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "list": [
@@ -32,7 +32,7 @@
       "selectedIconPath": "icon/home.png"
     },
     {
-      "pagePath": "pages/forum/forum",
+      "pagePath": "pages/forum1/forum1",
       "text": "求助",
       "iconPath": "icon/_my.png",
       "selectedIconPath": "icon/my.png"
@@ -45,7 +45,7 @@
     }],
     "color": "#000000",
     "selectedColor": "#FEFFFF",
-    "backgroundColor": "#6775B4"
+    "backgroundColor": "#7A98F0"
   },
 
 
