@@ -1,0 +1,27 @@
+.tabs{
+  background: #99b9ee;
+}
+.tabs_title{
+  display: flex;
+  padding: 10rpx 0;
+}
+.title_item{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4.5vw;
+  color: rgb(88, 88, 88);
+}
+.active{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  color:black;
+  font:bold;
+  border-bottom:10rpx solid currentColor ;
+}
+.tabs_content{
+  background: cornflowerblue;
+}
